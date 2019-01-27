@@ -45,11 +45,9 @@
             android:id="@+id/finalTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="336dp"
-            android:layout_marginLeft="336dp"
-            app:layout_anchorGravity="right|center"
+            app:layout_anchorGravity="right|bottom"
             app:layout_constraintBottom_toBottomOf="@id/totals"
-            app:layout_constraintStart_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 
