@@ -56,8 +56,11 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        //ProductJsonManager pjm = new ProductJsonManager("products.json", is);
-        //this.checkoutItems = (ArrayList<Product>) pjm.getProductList();
+        ProductJsonManager pjm = new ProductJsonManager("products.json", is);
+        this.checkoutItems = (ArrayList<Product>) pjm.getProductList();
+
+        this.mAdapter.setCheckoutItems(this.checkoutItems);
+        this.mAdapter.notifyDataSetChanged();
 
         FloatingActionButton fab = findViewById(R.id.cart);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -93,7 +96,6 @@ public class MainActivity extends AppCompatActivity {
 
         return cart;
     }
-
 
     public void snapPicture () {
         IntentIntegrator integrator = new IntentIntegrator(this);
