@@ -18,34 +18,38 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/totals"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toBottomOf="@id/shopping_list">
+        android:layout_height="38dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="@id/shopping_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/itemTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_anchorGravity="left|bottom"
             app:layout_constraintBottom_toBottomOf="@id/totals"
-            app:layout_anchorGravity="left|bottom"/>
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/hst"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_anchorGravity="center|bottom"
             app:layout_constraintBottom_toBottomOf="@id/totals"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_anchorGravity="right|bottom"/>
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/finalTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="336dp"
+            android:layout_marginLeft="336dp"
+            app:layout_anchorGravity="right|center"
             app:layout_constraintBottom_toBottomOf="@id/totals"
-            app:layout_anchorGravity="bottom|center"/>
+            app:layout_constraintStart_toEndOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
 

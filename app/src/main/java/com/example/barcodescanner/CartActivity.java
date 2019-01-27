@@ -36,7 +36,7 @@ public class CartActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        cartItems = getIntent().getParcelableArrayListExtra("cartItems");
+        cartItems = new ArrayList<Product>(); //getIntent().getParcelableArrayListExtra("cartItems");
 
         this.shoppingListRecyclerView = findViewById(R.id.shopping_list);
         this.mAdapter = new ShoppingListAdapter();
