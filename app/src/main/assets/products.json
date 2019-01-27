@@ -1,0 +1,38 @@
+{
+  "products" :
+[
+  {
+    "id": "5c4d38019ea933538f7a19c0",
+    "index": 0,
+    "price": "255.98",
+    "name": "Gucci T-Shirt",
+    "xsAvailability" : "true",
+    "sAvailability" : "false",
+    "mAvailability" : "true",
+    "lAvailability" : "true",
+    "xlAvailability" : "false"
+  },
+  {
+    "id": "5c4d3801ff6aff281568f29e",
+    "index": 1,
+    "price": "204.49",
+    "name": "OVO Hoodie",
+    "xsAvailability" : "false",
+    "sAvailability" : "false",
+    "mAvailability" : "true",
+    "lAvailability" : "true",
+    "xlAvailability" : "false"
+  },
+  {
+    "id": "5c4d3801922b40f5e68d97b1",
+    "index": 2,
+    "price": "104.29",
+    "name": "Supreme Shorts",
+    "xsAvailability" : "true",
+    "sAvailability" : "true",
+    "mAvailability" : "false",
+    "lAvailability" : "true",
+    "xlAvailability" : "false"
+  }
+]
+}

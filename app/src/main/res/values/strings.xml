@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Barcode Scanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="camera">TextView</string>
+    <string name="home">TextView</string>
+    <string name="cart">TextView</string>
+    <string name="title_activity_qrcode_receipt">QRCodeReceiptActivity</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_product_detail">ProductDetail</string>
+</resources>
